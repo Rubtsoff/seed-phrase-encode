@@ -2624,6 +2624,61 @@ __metadata:
   languageName: node
   linkType: hard
 
+"Seed phrase encoder@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "Seed phrase encoder@workspace:."
+  dependencies:
+    "@babel/core": ^7.21.3
+    "@babel/plugin-transform-runtime": ^7.21.0
+    "@babel/preset-env": ^7.20.2
+    "@babel/preset-react": ^7.18.6
+    "@babel/preset-typescript": ^7.21.0
+    "@babel/runtime": ^7.21.0
+    "@reduxjs/toolkit": ^1.9.3
+    "@svgr/webpack": ^6.5.1
+    "@types/lodash": ^4.14.191
+    "@types/react": ^18.0.28
+    "@types/react-dom": ^18.0.11
+    "@types/react-redux": ^7.1.25
+    "@typescript-eslint/eslint-plugin": ^5.55.0
+    "@typescript-eslint/parser": ^5.55.0
+    babel-loader: ^9.1.2
+    classnames: ^2.3.2
+    clean-webpack-plugin: ^4.0.0
+    css-loader: ^6.5.1
+    eslint: ^8.36.0
+    eslint-config-prettier: ^8.7.0
+    eslint-import-resolver-typescript: ^3.5.3
+    eslint-plugin-editorconfig: ^4.0.2
+    eslint-plugin-import: ^2.27.5
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-react: ^7.32.2
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-webpack-plugin: ^4.0.0
+    fork-ts-checker-webpack-plugin: ^8.0.0
+    gh-pages: ^5.0.0
+    html-webpack-plugin: ^5.5.0
+    node-sass: ^7.0.1
+    prettier: 2.7.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-redux: ^8.0.5
+    react-router-dom: ^6.9.0
+    resolve-url-loader: ^5.0.0
+    sass-loader: ^13.2.0
+    style-loader: ^3.3.2
+    stylelint: ^15.2.0
+    stylelint-config-standard-scss: ^7.0.1
+    stylelint-webpack-plugin: ^4.1.0
+    ts-node: ^10.4.0
+    typescript: ^4.9.5
+    webpack: ^5.76.1
+    webpack-cli: ^5.0.1
+    webpack-dev-server: ^4.12.0
+    webpack-merge: ^5.8.0
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:1, abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -4053,61 +4108,6 @@ __metadata:
   checksum: a65e3519414856df0228b9f645332f974f2bf5433370f544a681122eab59e66038fc3349b4be1cdc47152779dac71a5864f1ccda2f745e767c46e9c6543b1169
   languageName: node
   linkType: hard
-
-"dream-cars@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "dream-cars@workspace:."
-  dependencies:
-    "@babel/core": ^7.21.3
-    "@babel/plugin-transform-runtime": ^7.21.0
-    "@babel/preset-env": ^7.20.2
-    "@babel/preset-react": ^7.18.6
-    "@babel/preset-typescript": ^7.21.0
-    "@babel/runtime": ^7.21.0
-    "@reduxjs/toolkit": ^1.9.3
-    "@svgr/webpack": ^6.5.1
-    "@types/lodash": ^4.14.191
-    "@types/react": ^18.0.28
-    "@types/react-dom": ^18.0.11
-    "@types/react-redux": ^7.1.25
-    "@typescript-eslint/eslint-plugin": ^5.55.0
-    "@typescript-eslint/parser": ^5.55.0
-    babel-loader: ^9.1.2
-    classnames: ^2.3.2
-    clean-webpack-plugin: ^4.0.0
-    css-loader: ^6.5.1
-    eslint: ^8.36.0
-    eslint-config-prettier: ^8.7.0
-    eslint-import-resolver-typescript: ^3.5.3
-    eslint-plugin-editorconfig: ^4.0.2
-    eslint-plugin-import: ^2.27.5
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react: ^7.32.2
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-webpack-plugin: ^4.0.0
-    fork-ts-checker-webpack-plugin: ^8.0.0
-    gh-pages: ^5.0.0
-    html-webpack-plugin: ^5.5.0
-    node-sass: ^7.0.1
-    prettier: 2.7.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-redux: ^8.0.5
-    react-router-dom: ^6.9.0
-    resolve-url-loader: ^5.0.0
-    sass-loader: ^13.2.0
-    style-loader: ^3.3.2
-    stylelint: ^15.2.0
-    stylelint-config-standard-scss: ^7.0.1
-    stylelint-webpack-plugin: ^4.1.0
-    ts-node: ^10.4.0
-    typescript: ^4.9.5
-    webpack: ^5.76.1
-    webpack-cli: ^5.0.1
-    webpack-dev-server: ^4.12.0
-    webpack-merge: ^5.8.0
-  languageName: unknown
-  linkType: soft
 
 "ecc-jsbn@npm:~0.1.1":
   version: 0.1.2
