@@ -1,0 +1,32 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["global"]
+      }
+    ],
+    "alpha-value-notation": "number",
+    "property-no-vendor-prefix": [
+      true,
+      {
+        "ignoreProperties": ["/.*/"]
+      }
+    ],
+    "value-no-vendor-prefix": [
+      true,
+      {
+        "ignoreValues": ["/.*/"]
+      }
+    ],
+    "selector-no-vendor-prefix": [
+      true,
+      {
+        "ignoreSelectors": ["/.*/"]
+      }
+    ],
+    "selector-class-pattern": null,
+    "color-function-notation": "legacy"
+  }
+}

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    font: 14px/18px Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background: #393646;
+    min-width: 320px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#root {
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    border-style: none;
+    vertical-align: top;
+}
+
+a {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(126, 126, 126, 0.4);
+    width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    width: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+input,
+textarea,
+select {
+    font: 100% Roboto, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    appearance: none;
+    color: #fff;
+}
+
+button {
+    font: 100% Roboto, Arial, Helvetica, sans-serif;
+}
+
+form,
+fieldset {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+textarea {
+    overflow: auto;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+header,
+nav,
+section,
+main,
+article,
+aside,
+footer,
+figure,
+menu,
+dialog {
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    font-weight: normal;
+}
+
+input::-webkit-input-placeholder {
+    opacity: 1;
+}
+
+input::-moz-placeholder {
+    opacity: 1;
+}
+
+input:-moz-placeholder {
+    opacity: 1;
+}
+
+input:-ms-input-placeholder {
+    opacity: 1;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+input:focus::-moz-placeholder {
+    opacity: 0;
+}
+
+input:focus:-moz-placeholder {
+    opacity: 0;
+}
+
+input:focus:-ms-input-placeholder {
+    opacity: 0;
+}
+
+textarea::-webkit-input-placeholder {
+    opacity: 1;
+}
+
+textarea::-moz-placeholder {
+    opacity: 1;
+}
+
+textarea:-moz-placeholder {
+    opacity: 1;
+}
+
+textarea:-ms-input-placeholder {
+    opacity: 1;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+textarea:focus::-moz-placeholder {
+    opacity: 0;
+}
+
+textarea:focus:-moz-placeholder {
+    opacity: 0;
+}
+
+textarea:focus:-ms-input-placeholder {
+    opacity: 0;
+}
+
