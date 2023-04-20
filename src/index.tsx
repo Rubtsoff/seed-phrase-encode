@@ -13,7 +13,6 @@ const rootElement = document.getElementById("root") as HTMLElement;
 const root = createRoot(rootElement);
 
 // export const store = setupStore();
-
 const App = (): JSX.Element => {
   return <Main />;
 };
